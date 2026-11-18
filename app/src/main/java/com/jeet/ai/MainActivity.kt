@@ -14,7 +14,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.graphics.Color
 import android.view.Gravity
-
+import android.speech.tts.TextToSpeech
+import java.util.Locale
 class MainActivity : Activity() {
 
     private lateinit var status: TextView
